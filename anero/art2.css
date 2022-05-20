@@ -1,0 +1,177 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+	margin-top: -2px;
+	display: block;
+}
+
+body, html {
+	overflow: hidden;
+	position: relative;
+	max-height:  100vh;
+	height: 100vh;
+
+}
+.mrow {
+	display: flex;
+	flex-wrap: wrap;
+	max-height:  100vh;
+}
+.w20 {
+	display: flex;
+	width: 20%;
+	height: 100vh;
+	max-height: 100vh;
+	position: relative;
+}
+.sl {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.mintext {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.5vw;
+	height: 20vw;
+	width: 100%;
+	font-family: Open sans, Serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	color:  #d288c3;
+}
+.mintext:nth-child(2n) {
+	background: #d288c3;
+	color:  #fff;
+}
+.bk {
+	font-size: 16vw;
+	color:  red;
+	position: fixed;
+	top:  50%;
+	left: 50%;
+	transform:  translate(-50%, -50%);
+	z-index: 999;
+	font-family: 'base 05', Open sans, Serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 1.2vw;
+
+}
+.bk .bigtext{
+	display: block;
+	width: 100%;
+
+
+	
+}
+.bigtext span{
+	display: inline-block;
+	background-image: url(1.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	 color: transparent;
+	 -webkit-background-clip: text;
+	 background-clip: text;
+}
+.bigtext span:nth-child(1) {animation: text1  2s infinite ease-in-out;}
+.bigtext span:nth-child(2) {animation: text2  3s infinite ease-in-out;}
+.bigtext span:nth-child(3) {animation: text3  2s infinite ease-in-out;}
+.bigtext span:nth-child(4) {animation: text4  3s infinite ease-in-out;}
+.bigtext span:nth-child(5) {animation: text5  2s infinite ease-in-out;}
+.sl1 {
+	animation: sl1  25s infinite ease-in-out;
+}
+.sl2 {
+	top: -150px;
+	animation: sl2  25s infinite ease-in-out;
+
+}
+.sl3 {
+	top: -2000px;
+	animation: sl3  25s infinite ease-in-out;
+
+}
+.sl4 {
+	top: -1200px;
+	animation: sl4  25s infinite ease-in-out;
+}
+.sl5 {
+	top: -1900px;
+	animation: sl5  25s infinite ease-in-out;
+}
+@keyframes sl1 {
+	0% {top:  -0px}
+	50% {top:  -2500px}
+	100% {top:  0px}
+}
+@keyframes sl2 {
+	0% {top:  -2000px}
+	50% {top:  0px}
+	100% {top:  -2000px}
+}
+@keyframes sl3 {
+	0% {top:  -0px}
+	50% {top:  -2500px}
+	100% {top:  0px}
+}
+@keyframes sl4 {
+	0% {top:  -2000px}
+	50% {top:  0px}
+	100% {top:  -2000px}
+}
+@keyframes sl5 {
+	0% {top:  -0px}
+	50% {top:  -2500px}
+	100% {top:  0px}
+}
+@keyframes text1 {
+	0% {background-image: url(1.jpg);}
+	20% {background-image: url(2.jpg);}
+	40% {background-image: url(3.jpg);}
+	60% {background-image: url(4.jpg);}
+	80% {background-image: url(5.jpg);}
+	100% {background-image: url(1.jpg);}
+}
+@keyframes text2 {
+	0% {background-image: url(6.jpg);}
+	20% {background-image: url(7.jpg);}
+	40% {background-image: url(8.jpg);}
+	60% {background-image: url(9.jpg);}
+	80% {background-image: url(10.jpg);}
+	100% {background-image: url(6.jpg);}
+}
+@keyframes text3 {
+	0% {background-image: url(11.jpg);}
+	20% {background-image: url(12.jpg);}
+	40% {background-image: url(13.jpg);}
+	60% {background-image: url(14.jpg);}
+	80% {background-image: url(15.jpeg);}
+	100% {background-image: url(11.jpg);}
+}
+@keyframes text4 {
+	0% {background-image: url(16.jpg);}
+	20% {background-image: url(17.jpg);}
+	40% {background-image: url(18.jpg);}
+	60% {background-image: url(19.jpg);}
+	80% {background-image: url(20.jpg);}
+	100% {background-image: url(16.jpg);}
+}
+@keyframes text5 {
+	0% {background-image: url(21.jpg);}
+	20% {background-image: url(22.jpg);}
+	40% {background-image: url(23.jpg);}
+	60% {background-image: url(24.jpg);}
+	80% {background-image: url(25.jpg);}
+	100% {background-image: url(21.jpg);}
+}
